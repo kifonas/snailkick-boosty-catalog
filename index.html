@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Каталог Boosty SNAILKICK</title>
+<meta name="description" content="Каталог фильмов, сериалов и игр из Boosty-блога SNAILKICK: постеры, оценки Кинопоиск/IMDb и ссылки на записи.">
+<link rel="stylesheet" href="https://kifonas.github.io/boosty-catalog-assets/assets/styles.4394793c.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <h1><a href="#/">Каталог Boosty SNAILKICK</a></h1>
+    <p>Фильмы, сериалы и игры из <a href="https://boosty.to/snailkick" target="_blank" rel="noopener">Boosty</a> — с постерами, оценками и ссылками на записи просмотров.</p>
+  </div>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Поиск по названию…" autocomplete="off">
+    <select id="sort" aria-label="Сортировка">
+      <option value="default">Сначала новые записи</option>
+      <option value="year">По году выпуска</option>
+      <option value="title">По названию</option>
+      <option value="rating">По оценке Кинопоиска</option>
+      <option value="imdb">По оценке IMDb</option>
+    </select>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+</header>
+<main>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty" hidden>Ничего не найдено</div>
+</main>
+<footer class="foot">
+  <span>Обновлено: <span id="gen"></span></span>
+</footer>
+<script src="https://kifonas.github.io/boosty-catalog-assets/assets/app.19d814a4.js"></script>
+</body>
+</html>
+
